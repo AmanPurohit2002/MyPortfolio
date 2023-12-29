@@ -27,7 +27,7 @@ app.post('/contact-details',async (req,res)=>{
 
         // await newUser.save();
 
-        res.send("data added succesfully")
+        await res.send("data added succesfully")
 
         
     } catch (error) {
