@@ -79,7 +79,7 @@ function Contact() {
                   value={formData.message} name="message"
                   onChange={handleChange}
                 />
-                <button type="submit" onClick={handleSubmit}>
+                <button type="submit" onClick={handleSubmit} className="btn-primary">
                   Submit
                 </button>
               </form>
