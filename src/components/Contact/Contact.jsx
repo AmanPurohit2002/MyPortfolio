@@ -20,7 +20,7 @@ function Contact() {
     // console.log(typeof(formData));
     console.log(formData);
     const sendData=async ()=>{
-      await fetch('https://thepurohitperspective.vercel.app',{
+      await fetch('https://thepurohitperspective.vercel.app/contact-details',{
         method:"POST",
         headers: {
           'Content-Type': 'application/json',
@@ -30,6 +30,8 @@ function Contact() {
     }
 
     sendData();
+
+    alert("Data send successfully")
     
     setFormData({
       name : "",
